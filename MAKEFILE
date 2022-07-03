@@ -1,0 +1,5 @@
+.PHONY: start setup
+
+start: python3 source/main.py
+
+setup: pip3 install -r requirements.txt
